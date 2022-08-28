@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fill in the form and we will get in touch with you!</h1>
+    <form action="" >
+        <label for="name">Enter your name</label>
+        <br>
+        <input type="text" id="name">
+        <br>
+        <br>
+        <label for="surname"> Enter your surname</label>
+        <br>
+        <input type="text" id="surname" >
+        <br>
+        <br>
+        
+        <label for="query">What is your query?</label>
+        <br>
+        <input type="checkbox" name="Accomodation" id="> Accomodation
+        <input type="checkbox" name="Food preferences" id="">Food
+        <br>
+        <input type="checkbox" name="Beer preferences" id="">Accomodation
+        <br>
+        <input type="checkbox" name="None of the above" id="">Other
+        <br>
+        <br>
+        <label for="description">Describe your query</label>
+        <br>
+        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+        <br>
+        <label for="date">Enter expected date for visit:</label>
+        <br>
+        <br>
+        <input type="date">
+        <br>
+        <br>
+        <label for="email">Enter your email</label>
+        <br>
+        <input type="email" placeholder="enter valid email">
+        <br>
+        
+
+    </form>
+    <button id="demo">Submit</button>
+    <script>
+        function MyFunction(){
+            alert("Thank you for submitting your query with us! We will respond to you within 24hrs, constantly check your emails!")
+        };
+        document.getElementById("demo").onclick= MyFunction;
+    </script>
+</body>
+</html>

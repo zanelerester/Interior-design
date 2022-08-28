@@ -1,0 +1,226 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: palevioletred;
+}
+.left-side, .right-bar{
+    text-decoration: none;
+   
+}
+.left-side li, .right-bar li{
+    display: inline-block;
+}
+.right-bar li a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    display: block;
+    padding: 72px 16px;
+    color: burlywood;
+    font-weight: bold;
+}
+.right-bar li a:hover{
+    background-color: white;
+}
+.left-side{
+    padding: 14px 16px;
+    font-family: sans-serif;
+    color: burlywood;
+}
+.header{
+    background-color: powderblue;
+    text-align: center;
+}
+.pigment img{
+    width: 1400px;
+    height: 300px;
+}
+.mini-header{
+    background-color: palevioletred;
+}
+#hedy{
+    text-align: center;
+    text-decoration: underline;
+}
+.contain-head{
+    min-height: 100vh;
+    align-content: center;
+    justify-items: center;
+    background-color: palevioletred;
+    
+}
+.img-col img{
+    width: 500px;
+    height: 300px;
+    align-content: center;
+    justify-items: center;
+    justify-items: center;
+    padding-left: 200px;
+}
+    .demo, .container{
+    display: flex;
+}
+#baba{
+    text-align: center;
+}
+h4{
+    text-decoration: line-through;
+}
+.content{
+    min-height: 100vh;
+    justify-content: space-evenly;
+    background-color: white;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/mountains-gccaaa74d9_1920.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#main-head{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: palevioletred;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 40px;
+    padding-top: 24px;
+}
+.my-image img{
+    width: 400px;
+    height: 300px;
+    justify-content: space-around;
+}
+.function button{
+    display: inline-block;
+    justify-content: space-around;
+    vertical-align: bottom;
+    padding-left: 20px;
+   
+    
+}
+.site-container{
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 2rem top;
+    max-width: 100%;
+  
+    
+}
+.article-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    gap: 3rem;
+}
+.article-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.article-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+.article-card{
+    background-color: palevioletred;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.article-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(255, 255, 255, 0.432);
+    cursor: pointer;
+}
+.article-content{
+    padding: 3rem;
+}
+.article-content .card-category{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.accomodation{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/nature-g050442516_1920.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#acco{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: palevioletred;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 40px;
+    padding-top: 24px;
+}
+#acc{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 24px;
+}
+.sub-acc img{
+    width: 600px;
+    height: 400px;
+    float: left;
+}
+.sub-acc{
+    gap: 2rem;
+}
+#accau{
+    color: white;
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.conclude{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url('/wooden-floor-g68f728f9c_1920.jpg');
+}
+#conc, #coca{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: palevioletred;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 40px;
+    padding-top: 24px;
+
+}
+#yay{
+    color: white;
+    
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+#coc{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.footer{
+    padding: 50px 0;
+    background: palevioletred;
+}
+.footer .social{
+    text-align: center;
+}
+.backgr{
+    background: palevioletred;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    color: white;
+    font-size: 32px;
+}
